@@ -20,6 +20,7 @@
         updateincome()
         adminlist()
     End Sub
+
     Private Sub updateincome() 'calculates total sales by adding up highest bid of paintings where status is sold
         Dim sumsales As String
         Dim newbid As String
